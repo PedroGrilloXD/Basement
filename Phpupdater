@@ -10,3 +10,4 @@ sed -i '954i session.save_path = "/home/'$USER'/tmp"' php.ini &&
 sed -i '955d' php.ini
 }
 phpupdater 
+#Realiza uma atualização no php.ini antigo e renomeia para php.ini123, após isso cria um php.ini novo com as diretivas maximas
