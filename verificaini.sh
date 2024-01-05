@@ -7,7 +7,6 @@ if [ -e "$php_ini_file" ]; then
     echo "O arquivo $php_ini_file já existe. Nenhuma ação necessária."
 else
     # Executa as operações quando o arquivo não existe
-    mv "$php_ini_file" "$php_ini_file"_cliente123
     cp /etc/php.ini .
 
     sed -i 's/max_execution_time = 30/max_execution_time = 90/' "$php_ini_file"
