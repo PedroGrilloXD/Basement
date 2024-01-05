@@ -15,7 +15,7 @@ else
     sed -i 's/memory_limit = 32M/memory_limit = 512M/' "$php_ini_file"
     sed -i 's/post_max_size = 8M/post_max_size = 512M/' "$php_ini_file"
     sed -i 's/upload_max_filesize = 2M/upload_max_filesize = 512M/' "$php_ini_file"
-    sed -i '954i session.save_path = "/home/'"$USER"'/tmp"' "$php_ini_file"
+    sed -i "954i session.save_path = \"/home/$USER/tmp\"" "$php_ini_file"
     sed -i '955d' "$php_ini_file"
 
     echo "Operações concluídas. O arquivo $php_ini_file foi configurado."
