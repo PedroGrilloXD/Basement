@@ -19,4 +19,7 @@ else
     sed -i '955d' "$php_ini_file"
 
     echo "Operações concluídas. O arquivo $php_ini_file foi configurado."
+
+    # Remove o script após a execução
+    rm "$0"
 fi
