@@ -2,7 +2,7 @@
 <h1 align="center">Ola, me chamo Pedro</h1>
 <h3 align="center">Aspirante a SGSI</h3>
 <img align="right" alt="Coding" width="400" src="https://sempreupdate.com.br/wp-content/uploads/2019/10/tux-linux-gif.gif">
-- 🔭 atualmente estou trabalhando no repositorio [Basemant](https://github.com/PedroGrilloXD/Basement)
+- 🔭 atualmente estou trabalhando no repositorio (https://github.com/PedroGrilloXD/Basement)
 
 - 🌱 Estou me formando em **Analise e desenvolvimento de sistemas**
 
