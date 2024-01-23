@@ -20,4 +20,4 @@ echo "RewriteCond %{REQUEST_FILENAME} !-d" >> .htaccess
 echo "RewriteRule . /index.php [L]" >> .htaccess
 echo "" >> .htaccess
 
-echo "WordPress instalado com sucesso. O arquivo .htaccess foi configurado para o usuário FTP: ${ftp_username}."
+echo "WordPress instalado com sucesso. O arquivo .htaccess foi configurado."
