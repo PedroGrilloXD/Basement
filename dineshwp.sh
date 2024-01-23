@@ -1,14 +1,5 @@
 #!/bin/bash
 
-# Verificar se o nome do usuário FTP foi fornecido como argumento
-if [ -z "$1" ]; then
-  echo "Por favor, forneça o nome do usuário FTP como argumento."
-  exit 1
-fi
-
-# Nome do usuário FTP fornecido como argumento
-ftp_username="$1"
-
 # Baixar e descompactar o WordPress
 curl -SO https://br.wordpress.org/latest-pt_BR.zip
 unzip latest-pt_BR.zip
@@ -17,8 +8,6 @@ mv wordpress/* .
 rm -r wordpress
 
 # Criar o arquivo .htaccess com as informações específicas
-echo "#AddHandler php74-script .php" >> .htaccess
-echo "#suPHP_ConfigPath /home/${ftp_username}/" >> .htaccess
 echo "" >> .htaccess
 echo "# BEGIN WordPress" >> .htaccess
 echo "" >> .htaccess
