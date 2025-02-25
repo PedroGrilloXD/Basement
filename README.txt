@@ -1,4 +1,4 @@
-🚀 Bem-vindo ao repositório!
+🚀 Bem-vindo ao Basement!
 
 Este repositório foi criado durante o período em que trabalhei no suporte da Locaweb como Analista de Hospedagem Compartilhada. Os códigos aqui presentes foram desenvolvidos especificamente para a empresa, mas tratam-se de funções simples, como a instalação do WordPress 📝 e a atualização de arquivos básicos da hospedagem 🔄.
 
